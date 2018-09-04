@@ -1,0 +1,22 @@
+
+<resources>
+    <!-- Title for the application. -->
+    <string name="app_name">DAVID BOWIE</string>
+
+    <!-- album aladdin sane -->
+    <string name="album_aladdin">ALADDIN SANE</string>
+
+    <!-- album black star-->
+    <string name="album_black">BLACK STAR</string>
+
+    <!-- album david bowie -->
+    <string name="album_david">DAVID BOWIE</string>
+
+    <!-- album diamond dogs -->
+    <string name="album_diamond">DIAMOND DOGS</string>
+
+    <!-- album heroes -->
+    <string name="album_heroes">HEROES</string>
+
+
+</resources>

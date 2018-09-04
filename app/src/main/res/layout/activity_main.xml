@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background"
+    android:drawSelectorOnTop="true"
+    android:minHeight="@dimen/list_item_height">
+
+
+    <ImageView
+        android:id="@+id/image_aladdin_sane"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/aladdin_sane" />
+
+    <TextView
+        android:id="@+id/aladdin"
+        style="@style/AlbumStyle"
+        android:layout_alignParentTop="true"
+        android:background="@color/album_aladdin"
+        android:text="@string/album_aladdin" />
+
+
+    <ImageView
+        android:id="@+id/image_blackstar"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_below="@+id/aladdin"
+        android:src="@drawable/blackstar" />
+
+    <TextView
+        android:id="@+id/black"
+        style="@style/AlbumStyle"
+        android:layout_below="@+id/image_aladdin_sane"
+        android:background="@color/album_black"
+        android:text="@string/album_black" />
+
+
+    <ImageView
+        android:id="@+id/image_david_bowie"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_below="@+id/image_blackstar"
+        android:src="@drawable/david_bowie" />
+
+    <TextView
+        android:id="@+id/david"
+        style="@style/AlbumStyle"
+        android:layout_below="@+id/image_blackstar"
+        android:background="@color/album_david"
+        android:text="@string/album_david" />
+
+    <ImageView
+        android:id="@+id/image_diamond_dogs"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_below="@+id/image_david_bowie"
+        android:src="@drawable/diamond_dogs" />
+
+    <TextView
+        android:id="@+id/diamond"
+        style="@style/AlbumStyle"
+        android:layout_below="@+id/image_david_bowie"
+        android:background="@color/album_diamond"
+        android:text="@string/album_diamond" />
+
+    <ImageView
+        android:id="@+id/image_heroes"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_below="@+id/image_diamond_dogs"
+        android:src="@drawable/heroes" />
+
+    <TextView
+        android:id="@+id/heroes"
+        style="@style/AlbumStyle"
+        android:layout_below="@+id/image_diamond_dogs"
+        android:background="@color/album_heroes"
+        android:text="@string/album_heroes" />
+
+</RelativeLayout>

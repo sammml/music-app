@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.music_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.ALADDIN"/>
+                <action android:name="android.intent.action.BLACK"/>
+                <action android:name="android.intent.action.DAVID"/>
+                <action android:name="android.intent.action.DIAMOND"/>
+                <action android:name="android.intent.action.HEROES"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.android.music_app.AladdinActivity"
+            android:label="@string/album_aladdin"
+            android:parentActivityName=".MainActivity">
+
+            <!-- aladdin activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.AladdinActivity"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.android.music_app.BlackActivity"
+            android:label="@string/album_black"
+            android:parentActivityName=".MainActivity">
+
+            <!-- black activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.BlackActivity"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.android.music_app.DavidActivity"
+            android:label="@string/album_david"
+            android:parentActivityName=".MainActivity">
+
+            <!-- david activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.DavidActivity"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.android.music_app.DiamondActivity"
+            android:label="@string/album_diamond"
+            android:parentActivityName=".MainActivity">
+
+            <!-- diamond activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.DiamondActivity"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.android.music_app.HeroesActivity"
+            android:label="@string/album_heroes"
+            android:parentActivityName=".MainActivity">
+
+            <!-- heroes activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.HeroesActivity"
+                android:value=".MainActivity"/>
+        </activity>
+
+
+    </application>
+
+</manifest>
